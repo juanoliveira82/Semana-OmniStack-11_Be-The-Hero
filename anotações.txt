@@ -13,3 +13,7 @@
   Query Params: Parâmetros nomeados enviados na rota após o simbolo "?"  (Filtros, Paginação).
   Route Params: Parâmetros utilizados para identificar recursos.
   Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
+
+	REACT:
+
+  Link: É um componente parecido com a tag <a> em HTML, porém no React ele impede o navegador de recarregar o conteúdo todo.
