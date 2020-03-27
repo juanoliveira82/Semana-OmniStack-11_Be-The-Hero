@@ -7,7 +7,7 @@ module.exports = {
         const {id} = request.body;
 
         // Faz a busca pela Ong informada no banco de dados.
-        const ong = await connection('ongs').where('id', id).select('name').first();
+        const ong = await connection('ongs').where('id', id).select('nome').first();
 
         // Verifica se a Ong existe.
         if(!ong) {

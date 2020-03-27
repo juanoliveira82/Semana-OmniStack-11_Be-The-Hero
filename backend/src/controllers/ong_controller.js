@@ -11,16 +11,16 @@ module.exports = {
 
     // Função para criar uma nova Ong.
     async create(request, response) {
-        const { name, email, whatsapp, city, uf} = request.body;
+        const { nome, email, whatsapp, cidade, uf} = request.body;
         const id = crypto.randomBytes(4).toString('HEX');
 
         // Insere uma nova ong e retorna o 'id' da mesma.
         await connection('ongs').insert({
             id,
-            name,
+            nome,
             email,
             whatsapp,
-            city,
+            cidade,
             uf
         })
 

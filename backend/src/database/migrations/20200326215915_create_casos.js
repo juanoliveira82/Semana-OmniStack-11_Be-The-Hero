@@ -1,11 +1,11 @@
-// Criação da tabela Incidents (casos).
+// Criação da tabela Casos.
 exports.up = function(knex) {
-    return knex.schema.createTable('incidents', function(table) {
+    return knex.schema.createTable('casos', function(table) {
         // Cria uma id com auto incremento.
         table.increments();        
-        table.string('title').notNullable();
-        table.string('description').notNullable();
-        table.decimal('value').notNullable();
+        table.string('titulo').notNullable();
+        table.string('descricao').notNullable();
+        table.decimal('valor').notNullable();
     
         // Chave estrangeira da tabela Ongs.
         table.string('ong_id').notNullable();
@@ -15,5 +15,5 @@ exports.up = function(knex) {
 
 // Exclusão da tabela Incidents (casos).
 exports.down = function(knex) {
-    return knex.schema.dropTable('incidents');
+    return knex.schema.dropTable('casos');
 };
