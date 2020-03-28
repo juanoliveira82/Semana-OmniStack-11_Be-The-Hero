@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React, {useState} from 'react';
+import {Link, useHistory} from 'react-router-dom';
 
 // Impora os ícones necessários do pacote "feather icon", utilizando o react icons.
 import {FiArrowLeft} from 'react-icons/fi';

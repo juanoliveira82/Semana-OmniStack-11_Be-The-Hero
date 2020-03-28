@@ -7,7 +7,7 @@ import {FiPower, FiTrash2} from 'react-icons/fi';
 // Importa a Api do back-end criada com o axios.
 import api from '../../services/api';
 
-// Importa o estilo da página em css, e as imagens utilizadas.
+// Importa o estilo da página em css, e a imagem utilizada.
 import './styles.css';
 import logoImg from '../../assets/logo.svg';
 
@@ -23,10 +23,6 @@ function Perfil() {
   // Obtém a instância do histórico.
   const history = useHistory();
 
-  /**
-   * useEffect is a function that is called when something changes,
-   * in this case, when ngoId change. So it's just called once in the app.
-   */
   useEffect(() => {
     // Gets all incidents from the specific ngo
     api.get('/perfil', {

@@ -1,19 +1,18 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
+
+// Importa as rotas da aplicação.
+import Routes from './src/routes';
+
+// Componente do App.
+function App() {
+  // HTML que é retornado quando o componente é renderizado.
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <Routes />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// Exporta o App.
+export default App;
