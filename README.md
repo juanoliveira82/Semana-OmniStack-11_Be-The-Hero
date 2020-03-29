@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./frontend/src/assets/logo.svg"/><br/>  
-</h4>
+</p>
+
 ## Projeto "Be The Hero" da Semana OmniStack 11
 
 O projeto Be The Hero irá conectar Ong's que necessitam de ajuda com pessoas que queiram ajudar.
