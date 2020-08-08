@@ -17,7 +17,7 @@
 
 ## 💻 Projeto
 
-**Be The Hero** é um projeto Open Source desenvolvido utilizando **NodeJS**, **React** e **React Native** na **Semana OmniStack 11** realizada pela Rocketseat.
+**Be The Hero** é um projeto Open Source desenvolvido utilizando **NodeJS**, **React** e **React Native** na **Semana OmniStack 11.0** realizada pela Rocketseat.
 
 ## 📌 Objetivo
 
