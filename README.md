@@ -12,7 +12,9 @@
   <a href="#memo-licença">Licença</a>
 </p>
 <p align="center">
+  <br/>
   <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
+  <br/>
 </p>
 
 ## 💻 Projeto
