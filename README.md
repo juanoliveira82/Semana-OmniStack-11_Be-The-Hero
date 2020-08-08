@@ -1,10 +1,13 @@
 <p align="center">
   <img src=".github/logo.svg"/><br/>  
 </p>
+<h4 align="center">
+  🚀 "Be The Hero" - Semana OmniStack 11.0
+</h4>
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -12,7 +15,7 @@
   <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
 </p>
 
-## 💻 Projeto "Be The Hero" - Semana OmniStack 11
+## 💻 Projeto
 
 **Be The Hero** é um projeto Open Source desenvolvido utilizando **NodeJS**, **React** e **React Native** na **Semana OmniStack 11** realizada pela Rocketseat.
 
@@ -36,4 +39,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
